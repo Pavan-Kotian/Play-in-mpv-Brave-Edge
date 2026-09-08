@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Play in mpv",
+  "version": "1.2.0",
+  "description": "Play the current page, links, or media directly in mpv.",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Play current page in mpv",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
